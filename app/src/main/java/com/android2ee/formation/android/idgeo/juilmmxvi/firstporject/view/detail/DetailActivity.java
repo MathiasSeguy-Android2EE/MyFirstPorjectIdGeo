@@ -1,7 +1,7 @@
 package com.android2ee.formation.android.idgeo.juilmmxvi.firstporject.view.detail;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.widget.ImageView;
 import android.widget.TextView;
 

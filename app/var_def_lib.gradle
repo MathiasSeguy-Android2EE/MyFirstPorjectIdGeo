@@ -1,0 +1,4 @@
+//This is the list of the version of library you use
+project.ext {
+comGithubSatyan_sugar_Version=D\:\\Android\\Git\\TPFormation\\MyFirstPorjectIdGeo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png
+}
