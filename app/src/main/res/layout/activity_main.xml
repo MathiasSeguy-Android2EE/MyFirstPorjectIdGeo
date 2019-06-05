@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:orientation="vertical"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+	tools:context=".view.main.MainActivity">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="5dp"
+		android:text="@string/txvTitle"/>
+	<EditText
+		android:id="@+id/edtMessage"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="left"
+		android:layout_marginBottom="5dp"
+		android:hint="@string/edtMessageHint"
+		android:inputType="text|textCapSentences|textAutoComplete"
+	/>
+	<Button
+		android:id="@+id/btnAdd"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="5dp"
+		android:text="@string/btnAdd"
+	/>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		<ImageButton
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/ic_action_deleteall"
+			android:padding="5dp"
+			android:layout_weight="1"/>
+		<ImageButton
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:src="@drawable/ic_android_black_24dp"
+			android:padding="5dp"
+			android:layout_weight="1"/>
+		<ImageButton
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:src="@drawable/ic_directions_bike_black_24dp"
+			android:padding="5dp"
+			android:layout_weight="1"/>
+
+	</LinearLayout>
+	<ListView
+		android:id="@+id/lsvResult"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+	/>
+</LinearLayout>

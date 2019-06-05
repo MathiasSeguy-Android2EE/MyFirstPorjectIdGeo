@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyFirstPorjectIdGeo</string>
+    <string name="txvTitle">Hello Idgeo</string>
+    <string name="edtMessageHint">Mets ton texte ici mon chou</string>
+    <string name="btnAdd">Ajouter</string>
+    <string name="menuDeleteAll">Tuer les tous</string>
+    <string name="alertDialogMessage">Souhaitez-vous copier %1$s dans la zone EditText</string>
+    <string name="alertDialogTitle">Demande de Confirmation</string>
+    <string name="alertDialogPositive">Yep</string>
+    <string name="alertDialogNegative">Nope</string>
+    <string name="tstCopyNotAllowed">Ok, on copie quand même !!! ou pas :)</string>
+</resources>
